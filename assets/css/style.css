@@ -3,22 +3,22 @@
 * {
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
 }
 
 body {
-    font-family: Mukta,sans-serif;
+    font-family: Mukta, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
-/* heading and logo */
+/* headings and logo */
 
 h1, h2 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525
+    color: #252525;
 }
 
 #logo {
@@ -32,7 +32,6 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 2px;
-    list-style: none;
 }
 
 #menu, #logo {
@@ -64,7 +63,7 @@ h1, h2 {
 #hero-outer {
     height: 600px;
     width: 100%;
-    overflow: visible;
+    overflow: hidden;
 
     position: relative;
 }
@@ -78,7 +77,7 @@ h1, h2 {
     width: 100%;
     background: url('../images/Monopoly-monkeys.jpg') no-repeat center center;
 
-    /* animates zoom effect n loading page */
+    /* animates zoom effect on loading page */
 
     animation-name: hero-zoom;
     animation-duration: 5s;
@@ -114,7 +113,6 @@ h1, h2 {
 
     position: absolute;
 }
-}
 
 /* about section */
 
@@ -134,15 +132,15 @@ h1, h2 {
     float: right;
 }
 
-hr {
-    width: 100%;
-    border-top: 1px solid #3a3a3a;
-    margin: 5px;
-}
-
 #center-about {
     width: 33%;
     margin: 0 auto;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -171,7 +169,7 @@ hr {
 
 #welcome {
     text-align: center;
-    margin: 50px 0;
+    margin: 20px 0;
     font-size: 280%;
 }
 
@@ -190,4 +188,13 @@ hr {
     background: url('../images/ethos-center-image.jpg') no-repeat center center;
     height: 100%;
     border-radius: 50%;
+}
+
+#times {
+    background-image: url('../images/Hero-image-Pandemic.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
 }
