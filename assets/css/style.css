@@ -81,7 +81,7 @@ h1, h2 {
 
     animation-name: hero-zoom;
     animation-duration: 5s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for the hero image */
@@ -91,7 +91,7 @@ h1, h2 {
         transform: scale(1);
     }
     to {
-        transform: scale(0.5);
+        transform: scale(1.2);
     }
 }
 
@@ -211,7 +211,7 @@ hr {
 }
 
 .coop-game-type {
-    background-image: url('../images/chess\ with\ a\ crowd.jpg');
+    background-image: url('../images/chess-with-a-crowd.jpg');
 }
 
 .area-control-game-type {
@@ -252,6 +252,30 @@ hr {
 .about-background:hover p,
 .about-background:focus p {
   display: block;
+}
+
+/* game type description sction */
+
+#game-type-description {
+    background-color: rgb(248, 222, 183);
+}
+
+.game-type-description-left-column {
+    float: left;
+    width: 45%;
+    line-height: 20px;
+    clear: both
+    margin: 15px 5px 30px 25px;
+    border-left: 2px solid #3a3a3a;
+}
+
+.game-type-description-right-column {
+    float: right;
+    width: 45%;
+    line-height: 20px;
+    clear: both
+    margin: 15px 5px 30px 25px;
+    border-left: 2px solid #3a3a3a;
 }
 
 /* meetup and times section */
