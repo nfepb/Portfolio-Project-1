@@ -26,7 +26,7 @@ Through this webiste, users will be able to discover 4 types of board games, som
     
   <img width="1415" alt="4-different-game-styles" src="https://user-images.githubusercontent.com/89026917/139597926-a9ce8510-a65a-4ba5-9f34-c30ccd53edca.png">
 
-    <h2> the Sign Up Form</h2>
+    <h2>The Sign Up Form</h2>
     
     <li>The Sign up section has a form to collect details from people that would like to discover new board game type. They offer interested users to sign up for a session the closest to them between the different locations, in Dublin. </li>
       <li> Users can easily register and participate in their favorite hobby, without having to get in touch with someone first. </li>
@@ -36,7 +36,7 @@ Through this webiste, users will be able to discover 4 types of board games, som
       </ul>
       <ul>
         
-        <h2> The Contact Section
+  <h2> The Contact Section</h2>
         
         <li> In the footer of every page can the user find the links to the social media pages of the club. It provides the link to the Twitter, Instagram, Facebook, and YouTube pages of the club (fake). This appears under the form of social media icons</li>
           <li> This is particularly handy for users if they want to get in touch or see what kind of games are being played and what kind of crowd participates.</li>
@@ -61,6 +61,8 @@ Through this webiste, users will be able to discover 4 types of board games, som
           <li>Some errors were showing when w3 checker: duplicate id use in h2 for the index, iframe errors on the signup page</li>
           <li>No errors were found in the CSS code</li>
           <li>I confirm that the fonts chosen and colours are easy to read and accessible</li>
+  ![Screenshot 2021-10-31 at 19 54 32](https://user-images.githubusercontent.com/89026917/139599295-e3aece38-0f2a-484f-8c12-9cca02557b37.png)
+
           
       
   </ul>
