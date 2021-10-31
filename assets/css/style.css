@@ -12,6 +12,8 @@ body {
     color: #dddddd;
     background: url("../images/parchement-background-image.jpg") burlywood;
     background-attachment: fixed;
+    font-size: 1.3em;
+    letter-spacing: 1.5px;
 }
 
 /* headings and logo */
@@ -25,14 +27,14 @@ h1, h2 {
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 150%;
     margin-left: 30px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 110%;
+    font-size: 180%;
     letter-spacing: 2px;
 }
 
@@ -252,7 +254,7 @@ hr {
     transform: scale(1.1);
 }
 
-/* game type description sction */
+/* game type description section */
 
 #game-type-description {
     clear: both;
@@ -263,7 +265,6 @@ hr {
     float: left;
     width: 45%;
     line-height: 20px;
-    clear: both;
     margin: 15px 5px 30px 25px;
     text-align: justify;
 }
@@ -272,7 +273,6 @@ hr {
     float: right;
     width: 45%;
     line-height: 20px;
-    clear: both;
     margin: 15px 5px 30px 50px;
     border-left: 2px solid #3a3a3a;
 }
@@ -336,6 +336,60 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+/* form section */
+.form-section {
+    clear: left;
+    background: url("../images/lego-gandalf.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.signup-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.text-input:hover {
+    border-color: #f16c6b;
+}
+
+.join-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
 }
 
 /* Media queries */
