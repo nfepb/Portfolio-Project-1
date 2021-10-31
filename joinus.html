@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -32,24 +33,27 @@
 
 
     <section class="form-section">
-        
-        <form method="POST" action="https://formdump.codeinstitute.net/">
+
+        <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Let's get you signed up!</h2>
             <label for="fname">First Name</label>
-            <input type="text" id="fname" name="first_name" required>
+            <input type="text" id="fname" name="first_name" class="text-input" required>
             <label for="lname">Last Name</label>
-          <input class="lname" name="last_name" type="text" id="lname" required>
-         <label for="email">Email Address</label>
-        <input  type="email" name="email_address" id="email" required>
-        <label for="road">Road</label>
-          <input type="radio" name="running_preference" id="road" value="road" required>
-          <label for="trail">Trail</label>
-          <input type="radio" name="running_preference" id="trail" value="trail" required>
-          <label for="both">Both</label>
-          <input type="radio" name="running_preference" id="both" value="both" required>
-         <input class="join-button" type="submit" value="Let's Run!">
+            <input name="last_name" type="text" id="lname" class="text-input" required>
+            <label for="email">Email Address</label>
+            <input type="email" name="email_address" id="email" class="text-input" required>
+            <label for="meetup">Place to meet:</label>
+            <select id="meetup" name="meetup_location" class="text-input">
+                <option value="square_ball">The Square Ball</option>
+                <option value="gamersworld">Gamersworld</option>
+                <option value="any">Any</option>
+            </select>
+            <label class="form-label" for="date">Date</label>
+            <input id="date" type="date" name="booking-date" class="text-input">
+            <input class="join-button" type="submit" value="Start Your Adventure!">
         </form>
-            
-        </section>
+    
+    </section>
 </body>
+
 </html>
