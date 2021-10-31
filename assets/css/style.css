@@ -393,6 +393,18 @@ footer {
     color: #fafafa;
 }
 
+/* Map Section */
+
+#map {
+    text-align: center;
+}
+
+#map iframe {
+    width: 80%;
+    height: 450px;
+
+}
+
 /* Media queries */
 
 /* For larger to medium screen sizes from 1200px and down */
