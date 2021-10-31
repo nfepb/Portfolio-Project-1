@@ -468,6 +468,7 @@ footer {
 
     .left-about-heading, .right-about-heading {
         width: inherit;
+        margin: 1em auto;
     }
 
     .left-about-heading h2, .right-about-heading h2 {
@@ -482,8 +483,14 @@ footer {
     }
 
     .game-type-description-right-column, .game-type-description-left-column {
+        clear: both;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
         text-align: center;
         padding: 0 20px;
+        border-left: none;
     }
 
     #photos {
