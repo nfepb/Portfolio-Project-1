@@ -14,6 +14,8 @@ body {
     font-family: Mukta, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
+    background: url("../images/parchement-background-image.jpg") burlywood;
+    background-attachment: fixed;
 }
 
 /* headings and logo */
@@ -22,7 +24,7 @@ h1, h2 {
     font-family: Ubuntu, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #d8d8d8;
 }
 
 #logo {
@@ -137,13 +139,13 @@ h1, h2 {
 }
 
 #center-about {
-    padding-top: 50px;
+    padding-top: 15%;
     width: 33%;
     margin: 0 auto;
 }
 
 hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #ceba79;
     width: 100%;
     margin: 5px 0;
 }
@@ -162,15 +164,6 @@ hr {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
-}
-
-.right-about-heading h2 {
-    text-align: right;
-}
-
-.right-about-heading p {
-    text-align: right;
-    color: rgb(194, 194, 194);
 }
 
 #welcome {
@@ -216,6 +209,8 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
+    text-align: justify;
+    vertical-align: middle;
 }
 
 .about-content {
@@ -234,19 +229,19 @@ hr {
 }
 
 .coop-game-type {
-    background-image: url('../images/chess-with-a-crowd.jpg');
+    background-image: url('../images/cooperation.jpg');
 }
 
 .area-control-game-type {
-    background-image: url('../images/Catan.jpg');
+    background-image: url('../images/pallets-with-broom.jpg');
 }
 
 .deck-builder-game-type {
-    background-image: url('../images/poker-hand.jpg');
+    background-image: url('../images/hand-with-card.jpg');
 }
 
 .combat-game-type {
-    background-image: url('../images/blood-rage.jpg');
+    background-image: url('../images/chess-pieces.jpg');
 }
 
 /* hover effects about section */
@@ -280,7 +275,7 @@ hr {
     line-height: 20px;
     clear: both;
     margin: 15px 5px 30px 25px;
-    border-left: 2px solid #3a3a3a;
+    text-align: justify;
 }
 
 .game-type-description-right-column {
@@ -288,7 +283,7 @@ hr {
     width: 45%;
     line-height: 20px;
     clear: both;
-    margin: 15px 5px 30px 25px;
+    margin: 15px 5px 30px 50px;
     border-left: 2px solid #3a3a3a;
 }
 
